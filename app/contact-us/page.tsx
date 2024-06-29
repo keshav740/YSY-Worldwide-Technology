@@ -1,6 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
 
+export const metadata = {
+  title: "Contact - YSY WorldWide Technology",
+  description:
+    "We would love to hear from you. Whether you have a question about our services, need assistance, or just want to talk, we are here to help. Get in touch. contact ysy worldwide technology. world best web and app development company. world's best compliance and ml , ai service providing company",
+};
+
+
 const ContactUs = () => {
   return (
     <>

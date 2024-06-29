@@ -1,6 +1,12 @@
-import Projects from "@/app/components/main/Projects";
+import Projects from "@/components/main/Projects";
 import Image from "next/image";
 import React from "react";
+
+export const metadata = {
+  title: "Digital - Marketing - Services - YSY WorldWide Technology",
+  description:
+    "Enhance your business standards with our Digital Marketing or social media marketing services. We are the best digital marketing agency in the world. World's best social media marketing agency. World's best social media marketing agency",
+};
 
 const SocialMedia = () => {
   return (

@@ -1,6 +1,12 @@
-import Projects from "@/app/components/main/Projects";
+import Projects from "@/components/main/Projects";
 import Image from "next/image";
 import React from "react";
+
+export const metadata = {
+  title: "App-Development - Services - YSY WorldWide Technology",
+  description:
+    "Explore our expert services in App Development. We are the world's best app development service provider. Best app development Service Provider in the World. Best app development company in the world.",
+};
 
 const AppDevelopment = () => {
   return (

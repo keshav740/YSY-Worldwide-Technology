@@ -1,6 +1,12 @@
 import React from "react";
 import SubService from "./sub-about/page";
 
+export const metadata = {
+  title: "About - YSY WorldWide Technology",
+  description:
+    "We are the best company in the world providing services like Web development , app development, ML & AI , Compliance Services, Digital Marketing, Brand Development , and iso-certification",
+}
+
 const About = () => {
   return (
     <>

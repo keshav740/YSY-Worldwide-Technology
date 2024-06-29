@@ -1,6 +1,12 @@
-import Projects from "@/app/components/main/Projects";
+import Projects from "@/components/main/Projects";
 import Image from "next/image";
 import React from "react";
+
+export const metadata = {
+  title: "Ml-Ai - Services - YSY WorldWide Technology",
+  description:
+    "Explore our expert services in machine learning and artificial intelligence. We are the world's best machine learning and artificial intelligence service provider. Best ML and AI Service Provider in the World",
+};
 
 const AiMl = () => {
   return (

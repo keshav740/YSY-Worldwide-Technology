@@ -1,6 +1,12 @@
-import Projects from "@/app/components/main/Projects";
+import Projects from "@/components/main/Projects";
 import Image from "next/image";
 import React from "react";
+
+export const metadata = {
+  title: "Ml-Ai - Services - YSY WorldWide Technology",
+  description:
+    "Enhance your business standards with our ISO and ICV certification services. Our experts guide you through the certification process, ensuring compliance and quality improvement. Achieve industry recognition and operational excellence with our tailored certification solutions.",
+};
 
 const IsoCert = () => {
   return (
@@ -99,10 +105,10 @@ const IsoCert = () => {
             </h2>
             <p className="mt-4 text-gray-300">
               In an era marked by growing environmental concerns, ISO 14001
-              certification signifies an organization&apos;s dedication to minimizing
-              its environmental footprint. This not only satisfies regulatory
-              requirements but also appeals to environmentally-conscious
-              consumers.
+              certification signifies an organization&apos;s dedication to
+              minimizing its environmental footprint. This not only satisfies
+              regulatory requirements but also appeals to
+              environmentally-conscious consumers.
             </p>
           </div>
           <div className="px-4 sm:px-8 md:px-20">
@@ -111,9 +117,10 @@ const IsoCert = () => {
               Safety :
             </h2>
             <p className="mt-4 text-gray-300">
-              ISO 45001 certification highlights a company&apos;s focus on ensuring
-              the safety and well-being of its employees. This not only reduces
-              workplace accidents but also boosts morale and productivity.
+              ISO 45001 certification highlights a company&apos;s focus on
+              ensuring the safety and well-being of its employees. This not only
+              reduces workplace accidents but also boosts morale and
+              productivity.
             </p>
           </div>
           <div className="px-4 sm:px-8 md:px-20">

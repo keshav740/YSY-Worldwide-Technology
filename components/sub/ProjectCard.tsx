@@ -10,12 +10,12 @@ interface Props {
 
 const ProjectCard = ({ src, title, description }: Props) => {
   return (
-    <article 
-      className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] cursor-pointer transition-transform transform hover:scale-105"
-    >
+    <article className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] cursor-pointer transition-transform transform hover:scale-105">
       <Image
         src={src}
         alt={title}
+        // layout="fill"
+        objectFit="cover"
         width={1000}
         height={1000}
         className="w-full h-64 object-cover"

@@ -1,6 +1,13 @@
-import Projects from "@/app/components/main/Projects";
+import Projects from "@/components/main/Projects";
 import Image from "next/image";
 import React from "react";
+
+export const metadata = {
+  title: "AMC-CFT-Compliance - Services - YSY WorldWide Technology",
+  description:
+    "Ensure your business meets all regulatory standards with our comprehensive AMC-CFT-Compliance services. Best AMC-CFT-Compliance services in Dubai. Best AMC-CFT-Compliance service provider in the world. best company in the world for AMC-CFT-Compliance services.",
+};
+
 
 const Audit = () => {
   return (

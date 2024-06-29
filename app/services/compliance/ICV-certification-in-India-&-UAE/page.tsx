@@ -1,6 +1,12 @@
-import Projects from "@/app/components/main/Projects";
+import Projects from "@/components/main/Projects";
 import Image from "next/image";
 import React from "react";
+
+export const metadata = {
+  title: "ICV-certification-in-India-&-UAE-Compliance - Services - YSY WorldWide Technology",
+  description:
+    "Ensure your business meets all regulatory standards with our comprehensive ICV-certification-in-India-&-UAE-Compliance services. Best ICV-certification-in-India-&-UAE-Compliance services in Dubai. Best ICV-certification-in-India-&-UAE-Compliance service provider in the world. best company in the world for ICV-certification-in-India-&-UAE-Compliance services.",
+};
 
 const Audit = () => {
   return (

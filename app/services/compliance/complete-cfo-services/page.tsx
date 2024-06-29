@@ -1,6 +1,12 @@
-import Projects from "@/app/components/main/Projects";
+import Projects from "@/components/main/Projects";
 import Image from "next/image";
 import React from "react";
+
+export const metadata = {
+  title: "Complete-CFO-Compliance - Services - YSY WorldWide Technology",
+  description:
+    "Ensure your business meets all regulatory standards with our comprehensive Complete-CFO-Compliance services. Best Complete-CFO-Compliance services in Dubai. Best Complete-CFO-Compliance service provider in the world. best company in the world for Complete-CFO-Compliance services.",
+};
 
 const Audit = () => {
   return (

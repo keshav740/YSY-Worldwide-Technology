@@ -1,6 +1,13 @@
-import Projects from "@/app/components/main/Projects";
+import Projects from "@/components/main/Projects";
 import Image from "next/image";
 import React from "react";
+
+export const metadata = {
+  title: "Web-Development - Services - YSY WorldWide Technology",
+  description:
+    "Explore our expert services in Web Development. We are the world's best web development service provider. Best web development Service Provider in the World. Best web development company in the world. best company in the world for website development",
+};
+
 
 const WebDevelopment = () => {
   return (

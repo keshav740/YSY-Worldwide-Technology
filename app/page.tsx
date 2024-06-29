@@ -1,9 +1,11 @@
-import Encryption from "@/app/components/main/Encryption";
-import Hero from "@/app/components/main/Hero";
-import Projects from "@/app/components/main/Projects";
-import Skills from "@/app/components/main/Skills";
-import StickyIcon from "@/app/components/main/SticykIcon";
+import Encryption from "@/components/main/Encryption";
+import Hero from "@/components/main/Hero";
+import Projects from "@/components/main/Projects";
+import Skills from "@/components/main/Skills";
+import StickyIcon from "@/components/main/SticykIcon";
 import Page from "./about/sub-about/page";
+import OurTeam from "./our-team/page";
+import Comp from "@/components/main/Comp";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
         <Page />
         <Skills />
         <Projects />
+        <Comp />
+        <OurTeam />
         <Encryption />
       </div>
     </main>

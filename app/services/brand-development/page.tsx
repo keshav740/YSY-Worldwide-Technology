@@ -1,6 +1,12 @@
-import Projects from "@/app/components/main/Projects";
+import Projects from "@/components/main/Projects";
 import Image from "next/image";
 import React from "react";
+
+export const metadata = {
+  title: "Brand-development - Services - YSY WorldWide Technology",
+  description:
+    "Explore our expert services in Building Brands. We are the world's best brand development service provider. Best brand development Service Provider in the World. Best brand development company in the world.",
+};
 
 const BrandDevelopment = () => {
   return (

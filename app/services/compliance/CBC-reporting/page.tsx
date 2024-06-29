@@ -1,6 +1,12 @@
-import Projects from "@/app/components/main/Projects";
+import Projects from "@/components/main/Projects";
 import Image from "next/image";
 import React from "react";
+
+export const metadata = {
+  title: "CBC-Reporting-Compliance - Services - YSY WorldWide Technology",
+  description:
+    "Ensure your business meets all regulatory standards with our comprehensive CBC-Reporting-Compliance services. Best CBC-Reporting-Compliance services in Dubai. Best CBC-Reporting-Compliance service provider in the world. best company in the world for CBC-Reporting-Compliance services.",
+};
 
 const Audit = () => {
   return (

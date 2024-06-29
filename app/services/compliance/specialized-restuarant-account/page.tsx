@@ -1,6 +1,12 @@
-import Projects from "@/app/components/main/Projects";
+import Projects from "@/components/main/Projects";
 import Image from "next/image";
 import React from "react";
+
+export const metadata = {
+  title: "specialized-restuarant-account-Compliance - Services - YSY WorldWide Technology",
+  description:
+    "Ensure your business meets all regulatory standards with our comprehensive specialized-restuarant-account-Compliance services. Best specialized-restuarant-account-Compliance services in Dubai. Best specialized-restuarant-account-Compliance service provider in the world. best company in the world for specialized-restuarant-account-Compliance services.",
+};
 
 const Audit = () => {
   return (

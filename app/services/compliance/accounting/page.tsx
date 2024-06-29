@@ -1,6 +1,12 @@
-import Projects from "@/app/components/main/Projects";
+import Projects from "@/components/main/Projects";
 import Image from "next/image";
 import React from "react";
+
+export const metadata = {
+  title: "Accounting-compliance - Services - YSY WorldWide Technology",
+  description:
+    "Ensure your business meets all regulatory standards with our comprehensive accounting services. Best accounting services in Dubai. Best accounting service provider in the world. best company in the world for accounting services.",
+};
 
 const Accounting = () => {
   return (

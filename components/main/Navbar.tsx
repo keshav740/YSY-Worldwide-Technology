@@ -54,16 +54,19 @@ const Navbar = () => {
             <Link href="/skills" className="cursor-pointer px-2">
               Skills
             </Link>
-            <a href="/services" className="cursor-pointer px-2">
+            <Link href="/our-team" className="cursor-pointer px-2">
+              Our Team
+            </Link>
+            <Link href="/services" className="cursor-pointer px-2">
               Services
-            </a>
-            <a
+            </Link>
+            <Link
               href="/contact-us"
               className="cursor-pointer py-2"
               onClick={toggleMenu}
             >
               Contact Us
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -129,34 +132,41 @@ const Navbar = () => {
         }`}
       >
         <div className="flex flex-col items-center bg-[#39393dcc]">
-          <a
+          <Link
             href="/about"
             className="cursor-pointer py-2"
             onClick={toggleMenu}
           >
             About Us
-          </a>
-          <a
+          </Link>
+          <Link
             href="/skills"
             className="cursor-pointer py-2"
             onClick={toggleMenu}
           >
             Skills
-          </a>
-          <a
+          </Link>
+          <Link
+            href="/our-team"
+            className="cursor-pointer py-2"
+            onClick={toggleMenu}
+          >
+            Our Team
+          </Link>
+          <Link
             href="/services"
             className="cursor-pointer py-2"
             onClick={toggleMenu}
           >
             Services
-          </a>
-          <a
+          </Link>
+          <Link
             href="/contact-us"
             className="cursor-pointer py-2"
             onClick={toggleMenu}
           >
             Contact Us
-          </a>
+          </Link>
         </div>
       </div>
     </div>

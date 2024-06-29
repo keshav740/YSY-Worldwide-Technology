@@ -1,6 +1,12 @@
-import Projects from "@/app/components/main/Projects";
+import Projects from "@/components/main/Projects";
 import Image from "next/image";
 import React from "react";
+
+export const metadata = {
+  title: "Consultancy-Compliance - Services - YSY WorldWide Technology",
+  description:
+    "Ensure your business meets all regulatory standards with our comprehensive Consultancy-Compliance services. Best Consultancy-Compliance services in Dubai. Best Consultancy-Compliance service provider in the world. best company in the world for Complete-CFO-Compliance services.",
+};
 
 const Audit = () => {
   return (

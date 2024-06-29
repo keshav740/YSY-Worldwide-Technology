@@ -1,4 +1,3 @@
-import Projects from "@/components/main/Projects";
 import Link from "next/link";
 import React from "react";
 import { MdAccountBalance } from "react-icons/md";
@@ -12,16 +11,13 @@ import { FaCcVisa } from "react-icons/fa";
 import { FaRegLightbulb } from "react-icons/fa6";
 import { PiCertificateBold } from "react-icons/pi";
 
-
-
 export const metadata = {
   title: "Compliance - Services - YSY WorldWide Technology",
   description:
     "Ensure your business meets all regulatory standards with our comprehensive compliance services. Specializing in accounting, auditing, and Country-by-Country (CbC) reporting, Consultancy, amc-cft-compliance-services, economic-substance-regularty, icv-certification-in-india, UAE-golden-visa and specialized-restuarant-accounting we offer tailored solutions to keep your operations compliant and efficient. Explore our expert services and stay ahead in the ever-evolving compliance landscape.",
 };
 
-
-const ComplianceService = () => {
+const Comp = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center pt-20">
@@ -128,108 +124,9 @@ const ComplianceService = () => {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center pt-20">
-          <h1 className="text-[34px] md:text-[40px] font-semibold text-transparent pb-0 bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10 pl-4 md:pl-0">
-            Features
-          </h1>
-          <div className="px-4 sm:px-8 md:px-20">
-            <h2 className="text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
-              <span className="text-red-500">1:-</span> Visually Stunning
-              Designs :
-            </h2>
-            <p className="mt-4 text-gray-300">
-              Our team comprises creative and skilled designers who don&apos;t merely
-              follow the latest design trends; they ensure that your website&apos;s
-              design is distinctive and perfectly aligned with your brand. We
-              believe aesthetics play a pivotal role in creating a remarkable
-              first impression.
-            </p>
-          </div>
-          <div className="px-4 sm:px-8 md:px-20">
-            <h2 className="text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
-              <span className="text-red-500">2:-</span> Exceptional Performance
-              :
-            </h2>
-            <p className="mt-4 text-gray-300">
-              Our website isn&apos;t just a static digital brochure; it&apos;s a dynamic
-              platform that needs to load quickly and operate efficiently. We
-              meticulously optimize every aspect of your website to ensure it
-              performs exceptionally well, providing a smooth and
-              frustration-free experience for your users.
-            </p>
-          </div>
-          <div className="px-4 sm:px-8 md:px-20">
-            <h2 className="text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
-              <span className="text-red-500">3:-</span> User-centric approach :
-            </h2>
-            <p className="mt-4 text-gray-300">
-              Your target audience is our top priority. Through in-depth user
-              research and analysis, we guarantee that your website aligns
-              perfectly with the preferences and needs of your visitors.
-              Navigation is intuitive, content is engaging, and the overall
-              experience is user-friendly.
-            </p>
-          </div>
-          <div className="px-4 sm:px-8 md:px-20">
-            <h2 className="text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
-              <span className="text-red-500">4:-</span> Engagement and Delight :
-            </h2>
-            <p className="mt-4 text-gray-300">
-              We don&apos;t just inform; we engage and delight users. Interactive
-              elements, captivating visuals, and a compelling narrative are
-              seamlessly integrated to keep visitors hooked and eager to explore
-              further.
-            </p>
-          </div>
-          <div className="px-4 sm:px-8 md:px-20">
-            <h2 className="text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
-              <span className="text-red-500">5:-</span> Responsive Design :
-            </h2>
-            <p className="mt-4 text-gray-300">
-              In today&apos;s multi-device world, we design with responsiveness in
-              mind. Your website adapts gracefully to various screen sizes,
-              ensuring a consistent and appealing experience on desktops,
-              tablets, and smartphones.
-            </p>
-          </div>
-          <div className="px-4 sm:px-8 md:px-20">
-            <h2 className="text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
-              <span className="text-red-500">6:-</span> Lasting Impression :
-            </h2>
-            <p className="mt-4 text-gray-300">
-              We understand the significance of making a lasting impact. With
-              our design and development expertise, your online presence will
-              stand out from the crowd, leaving an indelible mark on your
-              audience&apos;s memory.
-            </p>
-          </div>
-          <div className="px-4 sm:px-8 md:px-20">
-            <h2 className="text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
-              <span className="text-red-500">7:-</span> Customised Solutions :
-            </h2>
-            <p className="mt-4 text-gray-300">
-              We reject the notion of one-size-fits-all solutions. Each project
-              is unique, and our design and development strategies are tailored
-              to meet your specific goals and objectives. By focusing on your
-              individual needs, we ensure that our solutions are both effective
-              and innovative.
-            </p>
-          </div>
-          <div className="px-4 sm:px-8 md:px-20">
-            <h2 className="text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
-              <span className="text-red-500">8:-</span> Continual Improvement :
-            </h2>
-            <p className="mt-4 text-gray-300">
-              The digital landscape is in perpetual evolution, and so are our
-              designs. We keep pace with the latest technologies and trends to
-              ensure your website remains cutting-edge and relevant.
-            </p>
-          </div>
-        </div>
       </div>
-      <Projects />
     </>
   );
 };
 
-export default ComplianceService;
+export default Comp;

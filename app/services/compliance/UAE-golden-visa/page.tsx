@@ -1,6 +1,12 @@
-import Projects from "@/app/components/main/Projects";
+import Projects from "@/components/main/Projects";
 import Image from "next/image";
 import React from "react";
+
+export const metadata = {
+  title: "UAE-golden-visa-Compliance - Services - YSY WorldWide Technology",
+  description:
+    "Ensure your business meets all regulatory standards with our comprehensive UAE-golden-visa-Compliance services. Best UAE-golden-visa-Compliance services in Dubai. Best UAE-golden-visa-Compliance service provider in the world. best company in the world for UAE-golden-visa-Compliance services.",
+};
 
 const Audit = () => {
   return (

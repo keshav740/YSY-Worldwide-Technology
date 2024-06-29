@@ -1,6 +1,12 @@
-import Projects from "@/app/components/main/Projects";
+import Projects from "@/components/main/Projects";
 import Image from "next/image";
 import React from "react";
+
+export const metadata = {
+  title: "Economic-Substance-Regulations-in-the-UAE-Compliance - Services - YSY WorldWide Technology",
+  description:
+    "Ensure your business meets all regulatory standards with our comprehensive economic-substance-regulations-in-the-UAE-Compliance services. Best economic-substance-regulations-in-the-UAE-Compliance services in Dubai. Best economic-substance-regulations-in-the-UAE-Compliance service provider in the world. best company in the world for economic-substance-regulations-in-the-UAE-Compliance services.",
+};
 
 const Audit = () => {
   return (
